@@ -1,36 +1,285 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 AstralQ – Premium AI SaaS Landing Page
 
-## Getting Started
+A modern, responsive, and high-performance landing page for an AI-powered SaaS platform, built as part of a frontend hackathon challenge.
 
-First, run the development server:
+The project demonstrates premium UI/UX design, responsive layouts, semantic HTML, dynamic pricing logic, and performance-focused frontend architecture using Next.js and Tailwind CSS.
+
+---
+
+## 🌐 Live Demo
+
+**Live Website:** *Add your Vercel URL here*
+
+**GitHub Repository:** *Add your GitHub repository URL here*
+
+---
+
+# 📸 Preview
+
+> Add screenshots or GIFs of the landing page here.
+
+---
+
+# ✨ Features
+
+### 🎯 Premium Hero Section
+
+* Modern AI SaaS branding
+* Responsive navigation
+* Call-to-action buttons
+* Statistics cards
+* Interactive dashboard preview
+
+### 🏢 Trusted Companies Section
+
+* Company showcase
+* Premium responsive layout
+
+### 📦 Responsive Feature Showcase
+
+* Bento Grid on desktop
+* Accordion layout on mobile
+* Smooth CSS transitions
+* Adaptive responsive design
+
+### 💬 Testimonials
+
+* Customer testimonials
+* Professional card layout
+
+### 💰 Dynamic Pricing System
+
+* Three pricing plans
+
+  * Starter
+  * Pro
+  * Enterprise
+* Currency switcher
+
+  * INR (₹)
+  * USD ($)
+  * EUR (€)
+* Billing toggle
+
+  * Monthly
+  * Annual
+* Dynamic pricing using a configuration matrix
+* Automatic 20% annual discount calculation
+
+### ❓ FAQ Section
+
+* Interactive accordion
+* Responsive animations
+
+### 📞 Contact CTA
+
+* Call-to-action section
+* Premium card layout
+
+### 📱 Fully Responsive
+
+* Mobile
+* Tablet
+* Desktop
+
+---
+
+# ⚡ Tech Stack
+
+* Next.js 16
+* React
+* TypeScript
+* Tailwind CSS 4
+* CSS Animations
+* App Router
+
+---
+
+# 🏗️ Project Structure
+
+```text
+app/
+│
+├── components/
+├── globals.css
+├── layout.tsx
+├── page.tsx
+│
+public/
+│
+package.json
+next.config.ts
+tsconfig.json
+```
+
+---
+
+# 🎨 Design Highlights
+
+* Premium dark theme
+* Modern SaaS-inspired UI
+* Smooth transitions
+* Glassmorphism-inspired cards
+* Responsive typography
+* Consistent spacing system
+* High readability
+* Accessible color palette
+
+---
+
+# 💡 Pricing Engine
+
+The pricing system is generated dynamically using a configuration object rather than hardcoded values.
+
+Supported features:
+
+* Multi-currency pricing
+* Monthly billing
+* Annual billing
+* Automatic 20% annual discount
+* Dynamic UI updates
+
+---
+
+# 📱 Responsive Design
+
+The website has been optimized for:
+
+* Mobile devices
+* Tablets
+* Laptops
+* Large desktop screens
+
+The feature section automatically adapts from a Bento Grid layout on larger screens to an Accordion layout on smaller devices for improved usability.
+
+---
+
+# 🚀 Performance
+
+The application focuses on:
+
+* Static page generation
+* Fast page load
+* Optimized rendering
+* Responsive layouts
+* Semantic HTML
+* SEO-friendly structure
+
+---
+
+# ♿ Accessibility
+
+* Semantic HTML
+* Keyboard-friendly components
+* Accessible navigation
+* Proper heading hierarchy
+* Responsive typography
+* High color contrast
+
+---
+
+# 🛠️ Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Navigate into the project:
+
+```bash
+cd ai-platform-landing-page
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 📦 Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Run production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 📂 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is deployed using **Vercel**.
+
+Deploy your own copy:
+
+1. Fork this repository
+2. Import the repository into Vercel
+3. Deploy
+
+---
+
+# 🎯 Hackathon Objectives Covered
+
+* ✅ Premium AI SaaS Landing Page
+* ✅ Responsive Design
+* ✅ Dynamic Pricing Matrix
+* ✅ Multi-Currency Support
+* ✅ Annual Billing Discount
+* ✅ Bento Grid Layout
+* ✅ Mobile Accordion
+* ✅ SEO-Friendly Structure
+* ✅ Semantic HTML
+* ✅ Modern UI/UX
+* ✅ Responsive Navigation
+* ✅ FAQ Section
+* ✅ Testimonials
+* ✅ Performance Optimized
+
+---
+
+# 🔮 Future Improvements
+
+* Dark/Light theme toggle
+* Animated charts
+* Authentication
+* Dashboard pages
+* Blog section
+* AI chatbot integration
+* CMS support
+* Internationalization (i18n)
+
+---
+
+# 👨‍💻 Author
+
+**Varad Petare**
+
+GitHub: *Add your GitHub profile*
+
+LinkedIn: *Add your LinkedIn profile*
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
