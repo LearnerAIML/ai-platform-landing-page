@@ -14,7 +14,8 @@ The project demonstrates premium UI/UX design, responsive layouts, semantic HTML
 
 # 📸 Preview
 
-> Add screenshots or GIFs of the landing page here.
+<img width="1349" height="767" alt="image" src="https://github.com/user-attachments/assets/7f61322e-2fe7-41c9-bf6b-a2ddcebd94af" />
+
 
 ---
 
