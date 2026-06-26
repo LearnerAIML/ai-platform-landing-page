@@ -8,9 +8,7 @@ The project demonstrates premium UI/UX design, responsive layouts, semantic HTML
 
 ## 🌐 Live Demo
 
-**Live Website:** *Add your Vercel URL here*
-
-**GitHub Repository:** *Add your GitHub repository URL here*
+**Live Website:** (https://ai-platform-landing-page-i8ppitdyo.vercel.app)
 
 ---
 
@@ -274,9 +272,7 @@ Deploy your own copy:
 
 **Varad Petare**
 
-GitHub: *Add your GitHub profile*
-
-LinkedIn: *Add your LinkedIn profile*
+LinkedIn: (https://www.linkedin.com/in/varadpetare)
 
 ---
 
