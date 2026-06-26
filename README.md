@@ -8,7 +8,7 @@ The project demonstrates premium UI/UX design, responsive layouts, semantic HTML
 
 ## 🌐 Live Demo
 
-**Live Website:** (https://ai-platform-landing-page-i8ppitdyo.vercel.app)
+**Live Website:** https://ai-platform-landing-page-i8ppitdyo.vercel.app
 
 ---
 
@@ -272,7 +272,7 @@ Deploy your own copy:
 
 **Varad Petare**
 
-LinkedIn: (https://www.linkedin.com/in/varadpetare)
+LinkedIn: https://www.linkedin.com/in/varadpetare
 
 ---
 
