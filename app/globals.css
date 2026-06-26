@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050816;
+  --foreground: #f3f5fb;
+  --muted: #98a2c7;
+  --surface: rgba(10, 16, 35, 0.82);
+  --surface-strong: rgba(16, 24, 48, 0.92);
+  --border: rgba(148, 163, 184, 0.18);
+  --accent: #8de1ff;
+  --accent-strong: #7c8cff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  background-image:
+    radial-gradient(circle at top left, rgba(124, 140, 255, 0.25), transparent 36%),
+    radial-gradient(circle at 80% 18%, rgba(141, 225, 255, 0.18), transparent 24%),
+    linear-gradient(180deg, #050816 0%, #070b18 45%, #04070f 100%);
+}
+
+* {
+  border-color: var(--border);
+}
+
+::selection {
+  background: rgba(141, 225, 255, 0.28);
+  color: #ffffff;
+}
+
+@keyframes drift {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  100% {
+    transform: translate3d(0, -14px, 0) scale(1.02);
+  }
+}
+
+@keyframes pulse-sheen {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 0.95;
+  }
+}
+
+@keyframes float-up {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-drift {
+  animation: drift 12s ease-in-out infinite alternate;
+}
+
+.animate-pulse-sheen {
+  animation: pulse-sheen 8s ease-in-out infinite;
+}
+
+.animate-float-up {
+  animation: float-up 10s ease-in-out infinite;
+}
+
+.glass-panel {
+  background: var(--surface);
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(22px);
+}
+
+.glass-panel-strong {
+  background: var(--surface-strong);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.42);
+  backdrop-filter: blur(24px);
+}
+
+.noise-grid {
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
